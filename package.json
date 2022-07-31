@@ -1,0 +1,39 @@
+{
+  "name": "node-red-boilerplate",
+  "version": "0.1.0",
+  "description": "A boilerplate for node-red based applications",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "dev": "nodemon src/index.js --config= nodemon.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diglopes/node-red-boilerplate.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodejs",
+    "chatbot"
+  ],
+  "author": "Diego Lopes",
+  "license": "UNLINCENSED",
+  "bugs": {
+    "url": "https://github.com/diglopes/node-red-boilerplate/issues"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/diglopes/node-red-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "node-red": "2.2.0",
+    "swagger-ui-express": "4.3.0"
+  },
+  "devDependencies": {
+    "node-red-debugger": "1.1.1",
+    "nodemon": "2.0.7",
+    "nrlint": "1.0.2"
+  }
+}

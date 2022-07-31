@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "./config",
+        ".env.dev",
+        "./lib/nodes"
+    ],
+    "ext": "html,js,json",
+    "ignore": [
+        "./lib/flows"
+    ],
+    "events": {
+        "start": "cls || clear"
+    }
+}
