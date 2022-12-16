@@ -34,6 +34,8 @@
   "devDependencies": {
     "node-red-debugger": "1.1.1",
     "nodemon": "2.0.7",
-    "nrlint": "1.0.2"
+    "nrlint": "1.0.2",
+    "express": ">=4.17.3" 
   }
+  
 }
